@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Meridian &mdash; Know Your APIs Before Your Users Do</title>
-  <meta name="description" content="Meridian gives engineering teams real-time API observability: latency, error rates, and anomalies surfaced before your users notice." />
+  <title>Velora &mdash; Know Your APIs Before Your Users Do</title>
+  <meta name="description" content="Velora gives engineering teams real-time API observability: latency, error rates, and anomalies surfaced before your users notice." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -284,11 +284,11 @@
 <nav class="nav" id="mainNav" role="navigation" aria-label="Main navigation">
   <div class="container">
     <div class="nav__inner">
-      <a href="/" class="nav__logo" aria-label="Meridian home">
+      <a href="/" class="nav__logo" aria-label="Velora home">
         <span class="logo-icon" aria-hidden="true">
           <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
         </span>
-        Meridian
+        Velora
       </a>
       <ul class="nav__links" role="list">
         <li><a href="#features">Features</a></li>
@@ -332,7 +332,7 @@
       <span>before your users do.</span>
     </h1>
     <p class="hero__sub">
-      Meridian gives engineering teams real-time observability into every API call &mdash;
+      Velora gives engineering teams real-time observability into every API call &mdash;
       latency, error rates, and anomalies &mdash; surfaced the moment they happen,
       not after a support ticket lands.
     </p>
@@ -355,7 +355,7 @@
       <div class="db-dots" aria-hidden="true">
         <span class="db-dot"></span><span class="db-dot"></span><span class="db-dot"></span>
       </div>
-      <span class="db-title">meridian &mdash; production &middot; api.yourcompany.com</span>
+      <span class="db-title">velora &mdash; production &middot; api.yourcompany.com</span>
       <span class="db-status">All systems normal</span>
     </div>
     <div class="db-body">
@@ -443,7 +443,7 @@
   <header class="sec-header reveal">
     <span class="sec-tag">Built for engineers</span>
     <h2 class="sec-h2" id="feat-h2">Every signal, no noise</h2>
-    <p class="sec-sub">Meridian filters the data stream down to what actually matters &mdash; so your team spends less time in dashboards and more time shipping.</p>
+    <p class="sec-sub">Velora filters the data stream down to what actually matters &mdash; so your team spends less time in dashboards and more time shipping.</p>
   </header>
   <div class="features-grid">
     <article class="f-card reveal d1">
@@ -464,7 +464,7 @@
     <article class="f-card reveal d1">
       <div class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
       <h3 class="f-h3">SLO budget burn</h3>
-      <p class="f-p">Define your error budget once. Meridian shows how fast you're burning through it and projects when you'll breach your monthly target.</p>
+      <p class="f-p">Define your error budget once. Velora shows how fast you're burning through it and projects when you'll breach your monthly target.</p>
     </article>
     <article class="f-card reveal d2">
       <div class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg></div>
@@ -496,18 +496,18 @@
       <div class="step reveal d2">
         <div class="step-num" aria-hidden="true">02</div>
         <h3>Data starts flowing</h3>
-        <p>Requests are sampled, structured, and streamed to Meridian's ingest pipeline. No performance overhead above 0.1 ms per request.</p>
+        <p>Requests are sampled, structured, and streamed to Velora's ingest pipeline. No performance overhead above 0.1 ms per request.</p>
       </div>
       <div class="step reveal d3">
         <div class="step-num" aria-hidden="true">03</div>
         <h3>Set your SLOs</h3>
-        <p>Define what "good" looks like for your team. Meridian tracks the rest and alerts you only when it matters.</p>
+        <p>Define what "good" looks like for your team. Velora tracks the rest and alerts you only when it matters.</p>
       </div>
     </div>
     <pre class="code-block reveal" aria-label="Example Node.js integration code"><code><span style="color:var(--muted)">// Node.js &mdash; takes about 30 seconds</span>
-<span style="color:var(--accent-hi)">import</span> { meridian } <span style="color:var(--accent-hi)">from</span> <span style="color:var(--green)">'@meridian/node'</span>
+<span style="color:var(--accent-hi)">import</span> { velora } <span style="color:var(--accent-hi)">from</span> <span style="color:var(--green)">'@velora/node'</span>
 
-app.use(meridian({
+app.use(velora({
   projectId: <span style="color:var(--green)">'your-project-id'</span>,
   sampleRate: <span style="color:var(--yellow)">1.0</span>,   <span style="color:var(--muted)">// 100% in dev, tune in prod</span>
 }))</code></pre>
@@ -522,7 +522,7 @@ app.use(meridian({
       We're building this in public.<br>Come build with us.
     </h2>
     <p class="callout-p">
-      Meridian is in private beta. We're working with a small group of teams who want a
+      Velora is in private beta. We're working with a small group of teams who want a
       direct line to the roadmap. No deck, no sales call &mdash; just honest software and
       fast iteration.
     </p>
@@ -539,18 +539,17 @@ app.use(meridian({
 <footer role="contentinfo">
   <div class="container">
     <div class="footer-inner">
-      <span class="footer-logo" aria-label="Meridian">
+      <span class="footer-logo" aria-label="Velora">
         <span class="logo-icon" aria-hidden="true" style="width:24px;height:24px;border-radius:6px">
           <svg viewBox="0 0 24 24" style="width:14px;height:14px"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
         </span>
-        Meridian
+        Velora
       </span>
       <ul class="footer-links" role="list">
         <li><a href="#">Privacy</a></li>
         <li><a href="#">Terms</a></li>
         <li><a href="https://github.com/vanshgupta34/Acdyon-Technologies-Frontend-Challenge" target="_blank" rel="noopener noreferrer">GitHub</a></li>
       </ul>
-      <span class="footer-copy">Acdyon Technologies Frontend Challenge &mdash; Part 2</span>
     </div>
   </div>
 </footer>
